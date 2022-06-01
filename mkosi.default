@@ -27,8 +27,8 @@ Packages=
     e2fsprogs
     efivar
     findutils
-    grub2-efi-aa64
-    grub2-efi-aa64-modules
+    grub2-efi
+    grub2-efi-modules
     grubby
     hostname
     iproute
