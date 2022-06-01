@@ -1,7 +1,7 @@
 [Distribution]
 Distribution=fedora
 Release=36
-Architecture=aarch64
+Architecture=x86_64
 UseHostRepositories=yes
 Repositories=fedora,updates,asahi-linux
 
@@ -13,6 +13,7 @@ Hostname=fedora
 
 [Packages]
 Packages=
+    uboot
     uboot-asahi
     update-m1n1
     audit
@@ -27,8 +28,8 @@ Packages=
     e2fsprogs
     efivar
     findutils
-    grub2-efi
-    grub2-efi-modules
+    grub2-efi-x86_64
+    grub2-efi-x86_64-modules
     grubby
     hostname
     iproute
