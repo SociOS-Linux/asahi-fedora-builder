@@ -4,7 +4,7 @@
 mkosi_rootfs='mkosi.rootfs'
 image_dir='images'
 image_mnt='mnt_image'
-image_name='asahi-base'
+image_name='socios-base'
 current_directory=$(dirname $(readlink -f $0))
 
 # this has to match the volume_id in installer_data.json
