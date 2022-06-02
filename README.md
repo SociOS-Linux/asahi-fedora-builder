@@ -123,4 +123,4 @@ https://github.com/AsahiLinux/docs/wiki/Partitioning-cheatsheet
 **Boot from USB device**  
 Once Linux is installed on an M1 system, you can then boot a compatible usb drive via ```u-boot```.  
 This project will create a bootable USB drive for M1 systems.  
-https://github.com/leifliddy/asahi-fedora-usb  
+https://github.com/socios-linux/socios-fedora-usb  
