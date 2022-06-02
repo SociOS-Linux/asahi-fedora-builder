@@ -1,13 +1,12 @@
 # asahi-fedora-builder
   
-Builds a minimal Fedora image to run on Apple M1 systems.
+Builds a minimal Fedora image to run on Apple Intel systems.
 
 <img src="https://user-images.githubusercontent.com/12903289/170612015-ef6a20a0-b6ba-4c39-a9ab-65bdecabdd0d.png" width=65%>
 
 **fedora package install:**  
 ```dnf install mkosi arch-install-scripts systemd-container qemu-user-static```  
 
-note: ```qemu-user-static``` is not needed if building the image on an ```aarch64``` system.   
 
 **To install a prebuilt image:**  
 Make sure to update your macOS to version 12.3 or later, then just pull up a Terminal in macOS and paste in this command:
